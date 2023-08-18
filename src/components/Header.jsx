@@ -1,7 +1,7 @@
 import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
 const Header = () => {
   return (
-    <header className="flex md:items-end items-center bg-teal md:w-72 w-full md:h-full md:fixed relative md:left-0 top-0 border-black md:border-r-2 border-b-2">
+    <header className="flex md:items-end items-center bg-teal fixed right-0 h-screen w-1/4 border-l-2 border-black">
       <div className="pl-2 md:pb-[100px] cursor-pointer">
         <h1 className="md:text-4xl text-2xl">The Running Quail</h1>
         <div className="md:text-2xl text-lg pl-1 md:py-3 justify-between">
